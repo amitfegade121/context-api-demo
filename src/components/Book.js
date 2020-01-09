@@ -1,7 +1,6 @@
 import React from "react";
 
 const Book = props => {
-  console.log(props);
   const { book, onIncrementLikes, onIncrementDisLikes } = props;
 
   return (

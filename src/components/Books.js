@@ -8,7 +8,7 @@ const Books = () => (
   <MyContext.Consumer>
     {context => (
       <React.Fragment>
-        <h4>Books: {console.log(context)}</h4>
+        <h4>Books</h4>
         {context.books.map(book => {
           return (
             <Book
